@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tcl-animation"
+version = "0.1.0"
+description = "Protocol-driven visual feedback for streamed head poses"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+authors = [{name = "Zakaria Zariry"}]
+dependencies = ["numpy>=1.24", "scipy>=1.10", "pygame>=2.5"]
+
+[project.scripts]
+tcl-animation = "tcl_animation.app:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+tcl_animation = ["protocols.json"]

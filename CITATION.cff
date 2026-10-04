@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "Please cite the associated paper when using this research software."
+title: "TCL animation: visual head-pose feedback"
+type: software
+license: MIT
+authors:
+  - family-names: Zariry
+    given-names: Zakaria
+version: 0.1.0
+references:
+  - type: article
+    title: "Intra-MRI Head Motion Tracking and Correction: A Quantitative In Vivo Evaluation Framework"
+    authors:
+      - family-names: Zariry
+        given-names: Zakaria
+      - family-names: Lamberton
+        given-names: Franck
+      - family-names: Frost
+        given-names: Robert
+      - family-names: Gaass
+        given-names: Thomas
+      - family-names: Troalen
+        given-names: Thomas
+      - family-names: Rayson
+        given-names: Holly
+      - family-names: Slipsager
+        given-names: Jakob M.
+      - family-names: Richard
+        given-names: Nathalie
+      - family-names: van der Kouwe
+        given-names: Andre
+      - family-names: Bonaiuto
+        given-names: James
+      - family-names: Hiba
+        given-names: Bassem
+    journal: NMR in Biomedicine
+    year: 2026
+    volume: '39'
+    issue: '9'
+    start: e70368
+    doi: 10.1002/nbm.70368
