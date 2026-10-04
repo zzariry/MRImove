@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # TCL animation
 
 Timed visual instructions and live head-pose feedback for research experiments.
@@ -223,10 +222,3 @@ GitHub Actions also runs a short headless demo on Windows and Linux.
 This software is released under the [MIT License](LICENSE).
 Copyright (c) 2024-2026 Zakaria Zariry.
 The license applies to this software; the associated publication has its own license.
-=======
-# MRImove
-Python script to communicate visual instructions and control the subject's head movements in MRI
-+ real-time feedback on the subject's head position (depending on the availability of a head movement tracking system)
-
-** Will be available soon.
->>>>>>> origin/main
